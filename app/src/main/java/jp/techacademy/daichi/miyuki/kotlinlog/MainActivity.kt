@@ -20,10 +20,10 @@ class MainActivity : AppCompatActivity() {
         Log.d("kotlintest", "私の名前は" + human2.name + "です。"+"年は"+ human2.age+"です。")
 
 
-        val hobby =Human("プログラミング",0,"")
+        val hobby =Human("",0,"プログラミング")
         hobby.think()
 
-        val hobby2 =Human("kotlin",0,"")
+        val hobby2 =Human("",0,"kotlin")
         hobby2.think()
      }
 }
