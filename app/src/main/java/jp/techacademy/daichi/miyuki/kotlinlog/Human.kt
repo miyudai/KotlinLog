@@ -3,7 +3,7 @@ import android.util.Log
 
 open class Human:Animal,Thinkable {
 
-    constructor(name: String, age: Int): super(name, age) {
+    constructor(name: String, age: Int,hobby:String ): super(name, age,hobby) {
 
     }
 
@@ -12,7 +12,7 @@ open class Human:Animal,Thinkable {
     }
 
     override fun think() {
-        Log.d("kotlintest", "私は"+this.name+"について考える。")
+        Log.d("kotlintest", "私は"+this.hobby+"について考える。")
     }
 
 }
